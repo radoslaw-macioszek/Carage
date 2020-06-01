@@ -1,15 +1,16 @@
 .carbar__wrapper {
 	grid-row: 4/5;
 	grid-column: full-start / full-end;
-	margin-top: 2rem;
-	padding: 25rem 15rem 40rem;
+	margin-top: 3rem;
+	padding: 10rem 15rem 30rem;
 	background-color: antiquewhite;
 	cursor: pointer;
-	clip-path: polygon(0% 15%, 100% 0%, 100% 85%, 0% 100%);
+	clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
 
 	&-title {
-		font-size: 5.5rem;
-		padding-top: 3rem;
+		font-size: $font-size-large;
+		padding-top: 12rem;
+		margin-left: 14rem;
 		font-weight: bold;
 	}
 	&-wrapper {
@@ -20,12 +21,12 @@
 
 .card {
 	height: 80vh;
-	perspective: 150rem;
+	perspective: 600rem;
 	position: relative;
 	z-index: 20;
 
 	&__side {
-		font-size: 3rem;
+		font-size: $font-size-big;
 		text-align: center;
 		height: 90vh;
 		border-radius: 10px;
@@ -58,7 +59,7 @@
 			justify-content: center;
 			align-items: center;
 			color: #f9f7f6;
-			font-size: 3.5rem;
+			font-size: $font-size-bigger;
 			background: linear-gradient(
 				to right bottom,
 				$color-white-dark -10%,
@@ -77,26 +78,30 @@
 		}
 
 		&-title {
-			font-size: 2.6rem;
-			&-big-grey {
+			font-size: $font-size-l;
+			&-big-gold {
 				color: $color-gold;
 			}
 
-			&-small-grey {
-				// color: grey;
+			&-small-gold {
 				color: $color-gold;
-				font-size: 2rem;
+				font-size: $font-size-normal;
+			}
+
+			&-small-grey {
+				color: grey;
+				font-size: $font-size-normal;
 			}
 		}
 
 		&-subtitle {
-			font-size: 2.8rem;
+			font-size: $font-size-l;
 			color: rgba(255, 0, 0, 0.651);
 			padding-bottom: 1.5rem;
 		}
 
 		&-paragraph {
-			font-size: 1.9rem;
+			font-size: $font-size-normal;
 			text-align: justify;
 			text-indent: 3rem;
 			border-top: 1px solid lightgray;
@@ -108,7 +113,7 @@
 
 		&--front {
 			background-color: rgba($color-gold, 0.7);
-			transform: scale(0.75);
+			transform: scale(0.7);
 		}
 
 		&--back {
@@ -118,14 +123,14 @@
 
 		&__bottom {
 			display: flex;
-			font-size: 2rem;
+			font-size: $font-size-normal;
 			justify-content: space-around;
 			padding: 2rem;
 			&-left {
 				display: flex;
 				flex-direction: column;
 
-				&-grey {
+				&-gold {
 					color: $color-gold;
 				}
 			}
@@ -134,7 +139,7 @@
 				display: flex;
 				flex-direction: column;
 
-				&-grey {
+				&-gold {
 					color: $color-gold;
 				}
 			}
@@ -164,7 +169,7 @@
 	}
 
 	&:hover &__side--back {
-		transform: rotateY(0) scale(0.95);
+		transform: rotateY(0) scale(0.9);
 		font-weight: bold;
 	}
 }

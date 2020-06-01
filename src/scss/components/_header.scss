@@ -18,11 +18,6 @@
 	padding-bottom: 30rem;
 
 	&__title {
-		// background: linear-gradient(
-		// 	to right bottom,
-		// 	$color-white-dark 50%,
-		// 	$color-red 100%
-		// );
 		background: linear-gradient(
 			to right bottom,
 			$color-white-dark 50%,
@@ -36,11 +31,6 @@
 	&__subtitle {
 		margin-top: -20px;
 		font-weight: bold;
-		// background: linear-gradient(
-		// 	to right bottom,
-		// 	$color-white-dark 35%,
-		// 	$color-red 100%
-		// );
 		background: linear-gradient(
 			to right bottom,
 			$color-white-dark 35%,
@@ -58,7 +48,6 @@
 		border-radius: 35px;
 		margin-top: 3rem;
 		background-color: $color-input-header;
-		// border: 1px solid #f4c4c4;
 		border: 1px solid $color-grey-dark;
 
 		padding: 0 10rem;

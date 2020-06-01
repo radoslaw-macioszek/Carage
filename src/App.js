@@ -5,6 +5,7 @@ import TopBar from "../src/components/TopBar";
 import Header from "../src/components/Header";
 import FeaturesRow from "../src/components/FeaturesRow";
 import CarBar from "../src/components/CarBar";
+import OffertsBar from "../src/components/OffertsBar";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			<Header />
 			<FeaturesRow />
 			<CarBar />
+			<OffertsBar />
 		</div>
 	);
 }

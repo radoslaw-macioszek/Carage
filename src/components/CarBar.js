@@ -28,12 +28,12 @@ const CarBar = () => {
 						/>
 						<p className="card__side-title">
 							Alfa Romeo 4C Spider
-							<span className="card__side-title-big-grey"> 2016</span>
+							<span className="card__side-title-big-gold"> 2016</span>
 						</p>
 						<p className="card__side-subtitle">
-							<span className="card__side-title-small-grey">Juz od </span>250
+							<span className="card__side-title-small-gold">Juz od </span>250
 							PLN
-							<span className="card__side-title-small-grey"> / dzień</span>
+							<span className="card__side-title-small-gold"> / dzień</span>
 						</p>
 						<p className="card__side-paragraph">
 							Auto w większości zbudowane z aluminium i włókna węglowego, dzięki
@@ -43,11 +43,11 @@ const CarBar = () => {
 						</p>
 						<div className="card__side__bottom">
 							<p className="card__side__bottom-left">
-								<span className="card__side__bottom-left-grey">Wiek:</span>{" "}
+								<span className="card__side__bottom-left-gold">Wiek:</span>{" "}
 								<span>21+</span>
 							</p>
 							<p className="card__side-bottom-right">
-								<span className="card__side__bottom-right-grey">
+								<span className="card__side__bottom-right-gold">
 									Prawo Jazdy
 								</span>
 								<span className="card__side__bottom-right">2+ lata</span>
@@ -70,12 +70,12 @@ const CarBar = () => {
 						/>
 						<p className="card__side-title">
 							Chevrolet Camaro 2SS
-							<span className="card__side-title-big-grey"> 2016</span>
+							<span className="card__side-title-big-gold"> 2016</span>
 						</p>
 						<p className="card__side-subtitle">
-							<span className="card__side-title-small-grey">Juz od </span>200
+							<span className="card__side-title-small-gold">Juz od </span>200
 							PLN
-							<span className="card__side-title-small-grey"> / dzień</span>
+							<span className="card__side-title-small-gold"> / dzień</span>
 						</p>
 						<p className="card__side-paragraph">
 							Najpotężniejszy muscle car od Chevroleta - pożeracz asfaltu, opon
@@ -85,11 +85,11 @@ const CarBar = () => {
 						</p>
 						<div className="card__side__bottom">
 							<p className="card__side__bottom-left">
-								<span className="card__side__bottom-left-grey">Wiek:</span>{" "}
+								<span className="card__side__bottom-left-gold">Wiek:</span>{" "}
 								<span>21+</span>
 							</p>
 							<p className="card__side-bottom-right">
-								<span className="card__side__bottom-right-grey">
+								<span className="card__side__bottom-right-gold">
 									Prawo Jazdy
 								</span>
 								<span className="card__side__bottom-right">2+ lata</span>
@@ -116,7 +116,7 @@ const CarBar = () => {
 						/>
 						<p className="card__side-title">
 							Porshe Taycan
-							<span className="card__side-title-big-grey"> 2019</span>
+							<span className="card__side-title-big-gold"> 2019</span>
 						</p>
 						<p className="card__side-subtitle">
 							<span className="card__side-title-small-grey">Juz wkrótce </span>
@@ -129,11 +129,11 @@ const CarBar = () => {
 						</p>
 						<div className="card__side__bottom">
 							<p className="card__side__bottom-left">
-								<span className="card__side__bottom-left-grey">Wiek:</span>{" "}
+								<span className="card__side__bottom-left-gold">Wiek:</span>{" "}
 								<span>21+</span>
 							</p>
 							<p className="card__side-bottom-right">
-								<span className="card__side__bottom-right-grey">
+								<span className="card__side__bottom-right-gold">
 									Prawo Jazdy
 								</span>
 								<span className="card__side__bottom-right">2+ lata</span>
