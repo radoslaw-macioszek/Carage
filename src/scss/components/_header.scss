@@ -1,0 +1,71 @@
+.header {
+	grid-column: full-start / full-end;
+	grid-row: 2/3;
+
+	background-image: linear-gradient(
+			rgba($color-secondary, 0.1),
+			rgba($color-secondary, 0.1)
+		),
+		url(../../img/auto-6.jpeg);
+	background-size: cover;
+	background-position-y: -25rem;
+	filter: saturate(2);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 30rem;
+
+	&__title {
+		// background: linear-gradient(
+		// 	to right bottom,
+		// 	$color-white-dark 50%,
+		// 	$color-red 100%
+		// );
+		background: linear-gradient(
+			to right bottom,
+			$color-white-dark 50%,
+			$color-grey-dark 100%
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		filter: drop-shadow(2px 4px 10px black);
+	}
+
+	&__subtitle {
+		margin-top: -20px;
+		font-weight: bold;
+		// background: linear-gradient(
+		// 	to right bottom,
+		// 	$color-white-dark 35%,
+		// 	$color-red 100%
+		// );
+		background: linear-gradient(
+			to right bottom,
+			$color-white-dark 35%,
+			$color-grey-dark 100%
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		filter: drop-shadow(4px 5px 10px black);
+		color: $color-white-dark;
+	}
+
+	&__input {
+		width: 50%;
+		height: 7rem;
+		border-radius: 35px;
+		margin-top: 3rem;
+		background-color: $color-input-header;
+		// border: 1px solid #f4c4c4;
+		border: 1px solid $color-grey-dark;
+
+		padding: 0 10rem;
+		font-size: 3rem;
+		background-image: url(../../img/search.svg);
+		background-size: 2.5rem;
+		background-position: 97% 50%;
+		background-repeat: no-repeat;
+	}
+}
