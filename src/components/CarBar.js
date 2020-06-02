@@ -31,14 +31,14 @@ const CarBar = () => {
 							<span className="card__side-title-big-gold"> 2016</span>
 						</p>
 						<p className="card__side-subtitle">
-							<span className="card__side-title-small-gold">Juz od </span>250
+							<span className="card__side-title-small-gold">Już od </span>250
 							PLN
 							<span className="card__side-title-small-gold"> / dzień</span>
 						</p>
 						<p className="card__side-paragraph">
 							Auto w większości zbudowane z aluminium i włókna węglowego, dzięki
 							czemu jego waga nie przekracza 900kg a pierwsza setka pojawia się
-							juz po 4,2s. Bezkompromisowy, głośny, surowy unikat, obok którego
+							już po 4,2s. Bezkompromisowy, głośny, surowy unikat, obok którego
 							nie przejdziesz obojętnie.
 						</p>
 						<div className="card__side__bottom">
@@ -73,7 +73,7 @@ const CarBar = () => {
 							<span className="card__side-title-big-gold"> 2016</span>
 						</p>
 						<p className="card__side-subtitle">
-							<span className="card__side-title-small-gold">Juz od </span>200
+							<span className="card__side-title-small-gold">Już od </span>200
 							PLN
 							<span className="card__side-title-small-gold"> / dzień</span>
 						</p>
@@ -119,11 +119,11 @@ const CarBar = () => {
 							<span className="card__side-title-big-gold"> 2019</span>
 						</p>
 						<p className="card__side-subtitle">
-							<span className="card__side-title-small-grey">Juz wkrótce </span>
+							<span className="card__side-title-small-grey">Już wkrótce </span>
 						</p>
 						<p className="card__side-paragraph">
 							Pierwszy w pełni elektryczny samochód niemieckiego producenta.
-							Piękna sylwetka oraz ogromne turbiny zamiast felg sprawiają, ze
+							Piękna sylwetka oraz ogromne turbiny zamiast felg sprawiają, że
 							ten niemy agresor na pewno pozostawi po sobie trwały ślad na
 							kartach motoryzacyjnej historii.
 						</p>

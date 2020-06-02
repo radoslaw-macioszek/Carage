@@ -1,17 +1,38 @@
-.imagebar {
+.imagebar__camaro {
 	grid-row: 6/7;
-	grid-column: full-start/full-end;
-	height: 90vh;
+	clip-path: polygon(0% 6%, 100% 0%, 100% 90%, 0% 100%);
+
+	background-image: linear-gradient(
+			to left top,
+			rgba(109, 93, 75, 0.7) 50%,
+			#f7bf75d8 140%
+		),
+		url(../../img/camaro-tlo-11.png);
+	justify-content: flex-end;
+	margin-top: -20rem;
+}
+.imagebar__alfa {
+	grid-row: 7/8;
+	clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+
 	background-image: linear-gradient(
 			to right top,
 			rgba(109, 93, 75, 0.7) 50%,
 			#f7bf75d8 140%
 		),
 		url(../../img/alfa-tlo.jpg);
-	background-color: lightgrey;
+	justify-content: flex-start;
+}
+
+.imagebar {
+	// grid-row: 6/7;
+	grid-column: full-start/full-end;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+
 	background-position: center;
 	background-size: cover;
-	clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
 	margin-top: -8rem;
 	position: relative;
 
@@ -22,9 +43,15 @@
 		justify-content: center;
 		font-weight: bold;
 		color: white;
-
-		height: 90%;
+		margin: 0 10rem;
 		width: 45%;
+
+		&-alfa {
+		}
+
+		&-camaro {
+			margin-top: -20rem;
+		}
 	}
 
 	&-title {
@@ -41,9 +68,17 @@
 
 	&-button {
 		position: absolute;
-		bottom: 15rem;
-		left: 33rem;
 		background: linear-gradient(to right bottom, #eee -200%, #7a4d3f 75%);
+
+		&-alfa {
+			bottom: 15rem;
+			left: 20%;
+		}
+
+		&-camaro {
+			bottom: 18rem;
+			right: 20%;
+		}
 
 		&:hover {
 			background: linear-gradient(to right bottom, #eee -200%, #802c2cd7 75%);

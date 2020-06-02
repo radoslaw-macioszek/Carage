@@ -1,9 +1,24 @@
 import React from "react";
 
-const ImageBar = () => {
-	return (
-		<div className="imagebar">
-			<div className="imagebar__wrapper">
+const ImageBar = ({ type }) => {
+	console.log(type);
+	return type === "camaro" ? (
+		<div className="imagebar imagebar__camaro">
+			<div className="imagebar__wrapper imagebar__wrapper-camaro">
+				<p className="imagebar-title">Chevrolet Camaro 2SS 2016</p>
+				<p className="imagebar-text">
+					Najpotężniejszy muscle car od Chevroleta - pożeracz asfaltu, opon oraz
+					serc. Agresywna sylwetka połączona z orkiestrą pod batutą maestro "V8"
+					doprowadzi każdego fana motoryzacji do migotania przedsionków.
+				</p>
+			</div>
+			<button className="imagebar-button imagebar-button-camaro btn">
+				Sprawdź szczegóły
+			</button>
+		</div>
+	) : (
+		<div className="imagebar imagebar__alfa">
+			<div className="imagebar__wrapper imagebar__wrapper-alfa">
 				<p className="imagebar-title">Alfa Romeo 4C Spider 2016</p>
 				<p className="imagebar-text">
 					Auto w większości zbudowano z aluminium i włókna węglowego, dzięki
@@ -12,7 +27,9 @@ const ImageBar = () => {
 					którego nie przejdziesz obojętnie.
 				</p>
 			</div>
-			<button className="imagebar-button btn">Sprawdź szczegóły</button>
+			<button className="imagebar-button imagebar-button-alfa btn ">
+				Sprawdź szczegóły
+			</button>
 		</div>
 	);
 };

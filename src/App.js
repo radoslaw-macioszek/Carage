@@ -16,7 +16,8 @@ function App() {
 			<FeaturesRow />
 			<CarBar />
 			<OffertsBar />
-			<ImageBar />
+			<ImageBar type="alfa" />
+			<ImageBar type="camaro" />
 		</div>
 	);
 }
