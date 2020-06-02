@@ -1,22 +1,22 @@
 .carbar__wrapper {
-	grid-row: 4/5;
+	grid-row: 6/7;
 	grid-column: full-start / full-end;
-	margin-top: 3rem;
+	margin-top: -8rem;
 	padding: 5rem 25rem 20rem 20rem;
 	background-color: antiquewhite;
 	background-image: linear-gradient(
-			to bottom right,
-			rgba(250, 235, 215, 0.8),
-			#f7bf75d8
+			to top right,
+			rgba(250, 235, 215, 0.7),
+			#7a4d3f 150%
 		),
 		url(../../img/tlo.jpg);
 	background-position: center;
 	background-size: cover;
 	cursor: pointer;
-	clip-path: polygon(0% 6%, 100% 0%, 100% 94%, 0% 100%);
+	clip-path: polygon(0% 8%, 100% 0%, 100% 94%, 0% 100%);
 
 	&-title {
-		font-size: $font-size-large;
+		font-size: 6.6rem;
 		padding-top: 8rem;
 		margin-bottom: -4rem;
 		margin-left: 5rem;
@@ -35,6 +35,7 @@
 	position: relative;
 	z-index: 20;
 	width: 115%;
+	font-weight: bold;
 
 	&__side {
 		font-size: $font-size-big;
@@ -71,11 +72,13 @@
 			align-items: center;
 			color: #f9f7f6;
 			font-size: $font-size-bigger;
-			background: linear-gradient(
-				to right bottom,
-				$color-white-dark -10%,
-				$color-gold 60%
-			);
+			background: linear-gradient(to right bottom, #eee -200%, #7a4d3f 75%);
+
+			// background: linear-gradient(
+			// 	to right bottom,
+			// 	$color-white-dark -10%,
+			// 	$color-gold 60%
+			// );
 			border-bottom-left-radius: 10px;
 			border-bottom-right-radius: 10px;
 		}
@@ -164,6 +167,7 @@
 			transform: translateX(-50%);
 			cursor: pointer;
 			border-radius: 5px;
+			background: linear-gradient(to right bottom, #eee -200%, #7a4d3f 75%);
 
 			&:hover {
 				transform: translateX(-50%);
@@ -181,6 +185,5 @@
 
 	&:hover &__side--back {
 		transform: rotateY(0) scale(0.85);
-		font-weight: bold;
 	}
 }
