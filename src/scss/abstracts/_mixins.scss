@@ -1,0 +1,14 @@
+@mixin card {
+	box-shadow: 1.5rem 2rem 4rem 1rem rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+@mixin card-picture {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	height: 25rem;
+	background-blend-mode: screen;
+	background-size: cover;
+	background-position: center;
+}

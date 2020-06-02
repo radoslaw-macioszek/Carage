@@ -18,11 +18,13 @@
 	}
 
 	&:hover {
-		background: linear-gradient(
-			to right bottom,
-			$color-white-dark -10%,
-			rgba(242, 39, 39, 0.651) 100%
-		);
+		// background: linear-gradient(
+		// 	to right bottom,
+		// 	$color-white-dark -10%,
+		// 	rgba(242, 39, 39, 0.651) 100%
+		// );
+		background: linear-gradient(to right bottom, #eee -200%, #802c2cd7 75%);
+
 		transform: translateY(-1rem);
 		box-shadow: 1rem 1.2rem 3rem rgba(0, 0, 0, 0.2);
 	}

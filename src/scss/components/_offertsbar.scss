@@ -1,7 +1,7 @@
 .offertbar {
 	grid-row: 5/6;
 	grid-column: full-start / full-end;
-	padding: 5rem 15rem;
+	padding: 5rem 15rem 20rem;
 
 	&__title {
 		font-size: $font-size-title;
@@ -10,7 +10,6 @@
 
 	&__subtitle {
 		text-align: center;
-		// margin-top: 2rem;
 		margin-bottom: 2rem;
 		font-size: $font-size-subtitle;
 	}
@@ -21,121 +20,99 @@
 		grid-gap: 8rem;
 		height: 70vh;
 		padding: 2rem;
-		border-top-right-radius: 10px;
-		border-top-left-radius: 10px;
-		border-bottom-left-radius: 10px;
-		border-bottom-right-radius: 10px;
-		box-shadow: 1.5rem 2rem 4rem 1rem rgba(0, 0, 0, 0.2);
-		border: 1px solid $color-gold;
+		border-radius: 10px;
 		margin-top: 5rem;
 
 		&-1 {
-			box-shadow: 1.5rem 2rem 4rem 1rem rgba(0, 0, 0, 0.2);
-			border-radius: 10px;
+			@include card;
 			transition: all 0.5s;
-			border: 1px solid $color-gold;
 
+			filter: grayscale(0.6);
 			&:hover {
-				transform: scale(1.2);
+				transform: scale(1.15);
+				filter: none;
 			}
 		}
 
 		&-2 {
-			box-shadow: 1.5rem 2rem 4rem 1rem rgba(0, 0, 0, 0.2);
-			border-radius: 10px;
+			@include card;
 			transition: all 0.5s;
-			border: 1px solid $color-gold;
+			filter: grayscale(0.6);
 
 			&:hover {
-				transform: scale(1.2);
+				transform: scale(1.15);
+				filter: none;
 			}
 		}
 
 		&-3 {
-			box-shadow: 1.5rem 2rem 4rem 1rem rgba(0, 0, 0, 0.2);
-			border-radius: 10px;
+			@include card;
 			transition: all 0.5s;
-			border: 1px solid $color-gold;
+			filter: grayscale(0.6);
 
 			&:hover {
-				transform: scale(1.1);
+				transform: scale(1.15);
+				filter: none;
 			}
 		}
 
 		&-4 {
-			box-shadow: 1.5rem 2rem 4rem 1rem rgba(0, 0, 0, 0.2);
-			border-radius: 10px;
+			@include card;
 			transition: all 0.5s;
-			border: 1px solid $color-gold;
+			filter: grayscale(0.6);
 
 			&:hover {
-				transform: scale(1.2);
+				transform: scale(1.15);
+				filter: none;
 			}
 		}
 
 		&-picture {
 			&-1 {
-				border-top-right-radius: 10px;
-				border-top-left-radius: 10px;
-				height: 20rem;
+				@include card-picture;
 				background-image: linear-gradient(
 						to right bottom,
 						$color-gold,
 						$color-grey-dark
 					),
 					url(../../img/codzien.jpg);
-				background-blend-mode: screen;
-				background-size: cover;
 			}
 
 			&-2 {
-				border-top-right-radius: 10px;
-				border-top-left-radius: 10px;
-				height: 20rem;
+				@include card-picture;
 				background-image: linear-gradient(
 						to right bottom,
 						$color-gold,
 						$color-grey-dark
 					),
 					url(../../img/kupon.jpeg);
-				background-blend-mode: screen;
 				background-size: contain;
 			}
 
 			&-3 {
-				border-top-right-radius: 10px;
-				border-top-left-radius: 10px;
-				height: 20rem;
+				@include card-picture;
 				background-image: linear-gradient(
 						to right bottom,
 						$color-gold,
 						$color-grey-dark
 					),
 					url(../../img/wedding.png);
-				background-blend-mode: screen;
-				background-size: cover;
 			}
 
 			&-4 {
-				border-top-right-radius: 10px;
-				border-top-left-radius: 10px;
-				height: 20rem;
+				@include card-picture;
 				background-image: linear-gradient(
 						to right bottom,
 						$color-gold,
 						$color-grey-dark
 					),
 					url(../../img/firm.jpg);
-				background-blend-mode: screen;
-				background-size: cover;
 			}
 		}
 
 		&-wrapper {
 			border-bottom-left-radius: 10px;
 			border-bottom-right-radius: 10px;
-			height: 68%;
-			background-color: #fff;
 		}
 
 		&-title {
