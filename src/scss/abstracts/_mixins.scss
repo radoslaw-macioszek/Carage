@@ -12,3 +12,9 @@
 	background-size: cover;
 	background-position: center;
 }
+
+@mixin picture {
+	background-size: cover;
+	background-position: center;
+	border-radius: 0.5rem;
+}
