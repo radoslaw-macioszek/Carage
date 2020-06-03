@@ -8,7 +8,7 @@ const Header = () => {
 			<p className="header__subtitle heading-3">
 				Nie wahaj się i wyrusz w niesamowitą podróż samochodem Twoich marzeń.
 			</p>
-			<input className="header__input" type="text" placeholder="Search" />
+			{/* <input className="header__input" type="text" placeholder="Search" /> */}
 		</div>
 	);
 };

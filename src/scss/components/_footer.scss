@@ -18,7 +18,7 @@
 
 	&__bottom {
 		display: flex;
-		// flex-direction: column;
+		position: relative;
 		&-logo {
 			background-image: linear-gradient(
 					to bottom,
@@ -87,9 +87,8 @@
 }
 
 .copyright {
-	display: flex;
-	width: 50%;
-	align-items: flex-end;
-	justify-content: flex-end;
 	font-size: 2rem;
+	position: absolute;
+	bottom: 2rem;
+	right: 2rem;
 }

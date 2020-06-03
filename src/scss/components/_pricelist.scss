@@ -33,7 +33,7 @@
 			grid-row: 2/ -1;
 			grid-column: 5 / span 3;
 			transition: all 0.4s;
-			border-radius: 5px;
+			border-radius: 10px;
 
 			&:hover {
 				transform: scale(1.1);
@@ -49,7 +49,7 @@
 			grid-row: 2/ -1;
 			grid-column: 8 / span 3;
 			transition: all 0.5s;
-			border-radius: 5px;
+			border-radius: 10px;
 
 			&:hover {
 				transform: scale(1.1);
@@ -65,7 +65,7 @@
 			grid-row: 2/ -1;
 			grid-column: 11 / span 3;
 			transition: all 0.4s;
-			border-radius: 5px;
+			border-radius: 10px;
 			filter: grayscale(1);
 
 			&:hover {
@@ -158,6 +158,3 @@
 		}
 	}
 }
-
-// $color-gold: #c69963;
-// $color-grey-dark

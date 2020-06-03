@@ -1,7 +1,6 @@
 import React from "react";
 
 const ImageBar = ({ type }) => {
-	console.log(type);
 	return type === "camaro" ? (
 		<div className="imagebar imagebar__camaro">
 			<div className="imagebar__wrapper imagebar__wrapper-camaro">
