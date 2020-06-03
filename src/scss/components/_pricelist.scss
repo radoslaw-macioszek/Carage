@@ -2,6 +2,7 @@
 	grid-row: 8/9;
 	grid-column: full-start / full-end;
 	height: 80vh;
+	margin-bottom: 60rem;
 
 	&__title {
 		text-align: center;
@@ -38,8 +39,8 @@
 				transform: scale(1.1);
 				background-image: linear-gradient(
 					to top right,
-					$color-gold,
-					$color-grey-dark
+					rgba($color-gold, 0.9),
+					rgba($color-grey-dark, 0.9)
 				);
 				color: white;
 			}
@@ -54,8 +55,8 @@
 				transform: scale(1.1);
 				background-image: linear-gradient(
 					to top right,
-					$color-gold,
-					$color-grey-dark
+					rgba($color-gold, 0.9),
+					rgba($color-grey-dark, 0.9)
 				);
 				color: white;
 			}
@@ -71,8 +72,8 @@
 				transform: scale(1.1);
 				background-image: linear-gradient(
 					to top right,
-					$color-gold,
-					$color-grey-dark
+					rgba($color-gold, 0.9),
+					rgba($color-grey-dark, 0.9)
 				);
 				color: white;
 			}

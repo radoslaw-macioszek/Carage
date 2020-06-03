@@ -4,10 +4,16 @@
 	margin-top: -8rem;
 	padding: 5rem 25rem 20rem 20rem;
 	background-color: antiquewhite;
+	// background-image: linear-gradient(
+	// 		to top right,
+	// 		rgba(250, 235, 215, 0.7),
+	// 		#7a4d3f 150%
+	// 	),
+	// 	url(../../img/tlo.jpg);
 	background-image: linear-gradient(
-			to top right,
-			rgba(250, 235, 215, 0.7),
-			#7a4d3f 150%
+			to left top,
+			rgba(109, 93, 75, 0.7) 50%,
+			#f7bf75d8 140%
 		),
 		url(../../img/tlo.jpg);
 	background-position: center;
