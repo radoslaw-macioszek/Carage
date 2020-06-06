@@ -10,8 +10,8 @@
 	color: white;
 	// color: $color-gold;
 	// place-items: center;
-	padding: 50px;
-	height: 70vh;
+	padding: 4rem;
+	height: 64vh;
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: column;
@@ -28,16 +28,16 @@
 				url(../../img/logo.png);
 			background-position: center;
 			background-size: cover;
-			height: 20rem;
-			width: 80rem;
+			height: 8rem;
+			width: 40rem;
 		}
 	}
 
 	&__top {
 		display: flex;
-		font-size: 4rem;
+		font-size: 2.5rem;
 		justify-content: space-around;
-		height: 35vh;
+		height: 36vh;
 
 		&-social {
 			&-title {
@@ -54,10 +54,10 @@
 		filter: brightness(0.5);
 
 		&-logo {
-			height: 4rem;
-			width: 4rem;
-			margin-right: 3rem;
-			border-radius: 14px;
+			height: 3rem;
+			width: 3rem;
+			margin-right: 2rem;
+			border-radius: 1.1rem;
 
 			&:hover {
 				cursor: pointer;
@@ -65,18 +65,18 @@
 		}
 
 		&-bottomName {
-			font-size: 3rem;
+			font-size: 2rem;
 			&:hover {
 				cursor: pointer;
 			}
 		}
 
 		&-middleName {
-			font-size: 2.5rem;
+			font-size: 1.8rem;
 		}
 
 		&-topName {
-			font-size: 4.5rem;
+			font-size: 2.6rem;
 		}
 
 		&:hover {
@@ -87,7 +87,7 @@
 }
 
 .copyright {
-	font-size: 2rem;
+	font-size: 1.2rem;
 	position: absolute;
 	bottom: 2rem;
 	right: 2rem;

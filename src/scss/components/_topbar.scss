@@ -19,8 +19,8 @@
 	}
 
 	&__user {
-		width: 7rem;
-		height: 7rem;
+		width: 5.5rem;
+		height: 5.5rem;
 		background-color: white;
 		display: flex;
 		align-self: center;
@@ -33,7 +33,7 @@
 	&__buttons {
 		display: flex;
 		align-items: center;
-		width: 35%;
+		width: 38%;
 		justify-content: space-between;
 	}
 }

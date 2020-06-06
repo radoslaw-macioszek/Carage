@@ -2,7 +2,7 @@ import React from "react";
 
 const OffertsBar = () => {
 	return (
-		<div className="offertbar">
+		<div className="offertbar clearfix">
 			<p className="offertbar__title">Nasza Oferta</p>
 			<p className="offertbar__subtitle">
 				Jesteśmy pasjonatami motoryzacji i w naszym garażu znajdą się tylko

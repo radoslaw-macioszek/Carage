@@ -2,7 +2,7 @@ import React from "react";
 
 const PriceList = () => {
 	return (
-		<div className="pricelist">
+		<div className="pricelist clearfix">
 			<p className="pricelist__title">Cennik</p>
 			<div className="pricelist__container">
 				<div className="pricelist__container-0">
@@ -40,7 +40,7 @@ const PriceList = () => {
 				</div>
 				<div className="pricelist__container-2">
 					<div className="pricelist__container-picture-2">&nbsp;</div>
-					<div className="pricelist__container-main">Chevrolet Camaro</div>
+					<div className="pricelist__container-main">Chevrolet Camaro 2SS</div>
 					<ul className=" pricelist__container-list">
 						<li>300 PLN / godzina</li>
 						<li>650 PLN</li>

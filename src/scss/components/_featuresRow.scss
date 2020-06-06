@@ -5,7 +5,8 @@
 	&__wrapper {
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
-		grid-gap: 11rem;
+		grid-column-gap: 8rem;
+		grid-row-gap: 6rem;
 		margin: 12rem 0;
 		align-items: start;
 	}
@@ -18,7 +19,7 @@
 	}
 
 	&__title {
-		font-size: $font-size-title;
+		font-size: 5rem;
 		text-align: center;
 	}
 
@@ -35,13 +36,13 @@
 	grid-column-gap: 2.5rem;
 
 	&__icon {
-		height: 6.5rem;
-		width: 6.5rem;
+		height: 5.5rem;
+		width: 5.5rem;
 		grid-row: 1 / span 2;
 	}
 
 	&__text {
-		font-size: 2.5rem;
+		font-size: 2rem;
 		text-align: justify;
 	}
 }
